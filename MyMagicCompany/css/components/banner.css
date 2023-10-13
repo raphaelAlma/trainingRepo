@@ -2,25 +2,25 @@
   /* 1. Set a background image */
   background-image:
     /* Transparent gradient above */
-    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 80%),
     /* Then image below */
-    url('images/background.jpg');
+    url(https://www.alma.fr/wp-content/uploads/2020/03/alma-equipe.jpg?id=8594);
   /* 2. Make the background image cover the banner div */
 	background-size: cover;     
   /* 3. Center the image */
 	background-position: center;
+  color: white;
+  padding: 150px 0px;
 }
 
 .banner-with-flat-filter {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://www.alma.fr/wp-content/uploads/2020/03/alma-equipe.jpg?id=8594);
 }
 
 .banner h1 {
-  color: white;
   font-size: 50px;
 }
 .banner h2 {
-  color: white;
   font-size: 30px;
   font-weight: lighter;
   opacity: 0.8;

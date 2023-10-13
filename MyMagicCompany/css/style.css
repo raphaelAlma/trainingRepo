@@ -14,7 +14,7 @@ body{
 	line-height:1.6;
 	font-weight: lighter;
 	font-family: 'Lexend', sans-serif;
-	/*letter-spacing:1px;*/
+	margin: 0px;
 }
 
 h1, h2, h3{
