@@ -1,0 +1,28 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto&Lora");
+
+/* Import all componants */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+body{
+	background-color: rgb(230,230,230);	
+	color: #443850;
+	font-size:14px;
+	line-height:1.6;
+	font-weight: lighter;
+	font-family: 'Lexend', sans-serif;
+	margin: 0px;
+}
+
+h1, h2, h3{
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}

@@ -53,11 +53,13 @@ p{
 #profilelogo{
 	background: white;
 	border:2px solid black;
-	margin: :10px;
+	margin: 10px;
 }
 
 .img-circle{
 	border-radius: 50%;
+	width: 60px;
+	height: 60px;
 }
 
 .shadowed{
