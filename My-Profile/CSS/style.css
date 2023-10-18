@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto&Lora");
 
 /* Import all componants */
-@import url("Components/sidebar.css");
-@import url("Components/container.css");
-@import url("Components/shadowed.css");
-@import url("Components/avatar.css");
-@import url("Components/button.css");
-@import url("Components/page-content.css");
-@import url("Components/card.css");
-@import url("Components/cards.css");
-@import url("Components/card-white.css");
-@import url("Components/list-inline.css");
+@import url("components/sidebar.css");
+@import url("components/container.css");
+@import url("components/shadowed.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/page-content.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+@import url("components/card-white.css");
+@import url("components/list-inline.css");
 
 /* General style rule */
 
