@@ -4,6 +4,7 @@
 /* Import all componants */
 @import url("../../MyMagicCompany/css/Components/sidebar.css");
 @import url("../../MyMagicCompany/css/Components/container.css");
+@import url("../../MyMagicCompany/css/Components/shadowed.css");
 
 /* General style rule */
 
@@ -32,8 +33,6 @@ h2 {
     font-size: 24px;
     font-weight: lighter;
 }
-
-
 
 a {
     font-family: 'Roboto', sans-serif;
@@ -79,9 +78,7 @@ p {
     height: 60px;
 }
 
-.shadowed {
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-}
+
 
 .img-passion {
     background: white;
