@@ -1,31 +1,37 @@
 .sidebar {
-  position: fixed;
-  width: 200px;
-  left: 0;
-  top: 0;
-  bottom: 0;
+    position: fixed;
+    width: 200px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid rgb(228, 228, 228);
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    ;
 }
-.sidebar ul {
-  list-style: none;
-  padding-left: 0px;
-}
+
+    .sidebar ul {
+        list-style: none;
+        padding-left: 0px;
+    }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .sidebar {
-    width: 200px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .sidebar {
-    width: 100px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .sidebar {
-    width: 100px;
-  }
+    /* For a screen < 960px, this CSS will be read */
+    .sidebar {
+        width: 200px;
+    }
 }
 
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .sidebar {
+        width: 100px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .sidebar {
+        width: 100px;
+    }
+}
