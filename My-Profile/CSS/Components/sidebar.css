@@ -1,23 +1,31 @@
-.container{
-	width: 700px;
-	margin: 80px auto;
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
+  .sidebar {
+    width: 200px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
+  .sidebar {
+    width: 100px;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
+  .sidebar {
+    width: 100px;
   }
 }
+

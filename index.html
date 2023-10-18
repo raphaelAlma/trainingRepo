@@ -10,65 +10,75 @@
 		<link href="My-Profile/CSS/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container">
-			<div class="card-white" id="introduction">
-				<h1>
-					Hey every one, I'm Raphaël
-				</h1>	
-				<img src="My-Profile/images/profile-picture.jpg" alt="My picture profile" id="profilelogo" class="img-circle shadowed">
-				<p>
-					this is my <em>first</em> <strong>paragraph</strong>
-					how do you feel today ? I'm great, thank you, have a good day !
-				</p>
-				<a href="MyMagicCompany/index.html" target="_blank" class="btn-blue"> Here the link of my beautiful company</a>
+		<div class="sidebar">
+		  <ul>
+				<li><a href="#introduction">About me</a></li>
+				<li><a href="#skills">My Skills</a></li>
+				<li><a href="#passion">My Passions</a></li>
+				<li><a href="#follow">Follow me</a></li>
+			</ul>
+		</div>
+		<div class="page-content">
+			<div class="container">
+				<div class="card-white" id="introduction">
+					<h1>
+						Hey every one, I'm Raphaël
+					</h1>
+					<img src="My-Profile/images/profile-picture.jpg" alt="My picture profile" id="profilelogo" class="img-circle shadowed">
+					<p>
+						this is my <em>first</em> <strong>paragraph</strong>
+						how do you feel today ? I'm great, thank you, have a good day !
+					</p>
+					<a href="MyMagicCompany/index.html" target="_blank" class="btn-blue"> Here the link of my beautiful company</a>
+				</div>
+				<div class="card-white" id="skills">
+					<h2>
+						My skills
+					</h2>
+					<ul>
+						<strong>unorder</strong> list
+						<li> first list item</li>
+						<li> second list item</li>
+					</ul>
+				</div>
+				<div class="card-white" id="passion">
+					<h2>My passion</h2>
+					<ol>
+						<strong>order</strong> list
+						<li class="img-passion">moutain skiing</li>
+						<li class="img-passion">hiking</li>
+					</ol>
+				</div>
+				<div class="card-white" id="follow">
+					<h2>
+						Follow me
+					</h2>
+					<ul class="list-inline">
+						<li>
+							<a href="https://www.linkedin.com/in/rapha%C3%ABllef%C3%A8vre/" target="_blank">
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/leferaph" target="_blank">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://gitlab.com/lefevrerapha" target="_blank">
+								<i class="fa-brands fa-gitlab fa-bounce">	</i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card-white">
+					<form>
+				  		<input type="email">
+				  		<input type="password">
+				  		<input type="submit" value="Sign up">
+					</form>
+				</div>
 			</div>
-			<div class="card-white">
-				<h2>
-					My skills
-				</h2>
-				<ul> 
-					<strong>unorder</strong> list
-					<li> first list item</li>
-					<li> second list item</li>
-				</ul>
-			</div>
-			<div class="card-white">
-				<h2>My passion</h2>
-				<ol>
-					<strong>order</strong> list 
-					<li class="img-passion">moutain skiing</li>
-					<li class="img-passion">hiking</li>
-				</ol>
-			</div>
-			<div class="card-white">
-				<h2>
-					Follow me
-				</h2>
-				<ul class="list-inline">
-					<li> 
-						<a href="https://www.linkedin.com/in/rapha%C3%ABllef%C3%A8vre/" target="_blank">
-							<i class="fa-brands fa-linkedin"></i>
-						</a>
-					</li>
-					<li> 
-						<a href="https://twitter.com/leferaph" target="_blank">
-							<i class="fa-brands fa-twitter"></i>
-						</a>
-					</li>
-					<li> 
-						<a href="https://gitlab.com/lefevrerapha" target="_blank">
-							<i class="fa-brands fa-gitlab fa-bounce">	</i>
-						</a>
-					</li>
-				</ul>			
-			</div>
-			<div class="card-white">
-				<form>
-			  		<input type="email">
-			  		<input type="password">
-			  		<input type="submit" value="Sign up">
-				</form>		
-			</div>	
 		</div>
 	</body>
 <html>
