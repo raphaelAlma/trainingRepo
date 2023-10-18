@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto&Lora");
 
 /* Import all componants */
-@import url("Components/avatar.css");
-@import url("Components/banner.css");
-@import url("Components/button.css");
 @import url("../../MyMagicCompany/css/Components/sidebar.css");
 @import url("../../MyMagicCompany/css/Components/container.css");
 
