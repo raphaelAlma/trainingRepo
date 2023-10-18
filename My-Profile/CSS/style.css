@@ -48,7 +48,7 @@ a:hover{
 }
 
 p{
-	text-justify: center;
+	text-justify: none;
 }
 
 #profilelogo{
