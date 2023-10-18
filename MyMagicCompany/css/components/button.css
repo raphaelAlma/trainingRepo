@@ -1,12 +1,12 @@
-.button{
-	background-color: #6B72E1;
-	color: white;
-	font-weight: bold;
-	padding: 15px 20px;
-	border-radius: 5px;
+.button {
+    background-color: #6B72E1;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 5px;
 }
 
-.button:hover{
-	background-color: black;
-	color: white;
-}
+    .button:hover {
+        background-color: black;
+        color: white;
+    }
