@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto&Lora");
 
 /* Import all componants */
-@import url("../../MyMagicCompany/css/Components/sidebar.css");
-@import url("../../MyMagicCompany/css/Components/container.css");
-@import url("../../MyMagicCompany/css/Components/shadowed.css");
-@import url("../../MyMagicCompany/css/Components/avatar.css");
-@import url("../../MyMagicCompany/css/Components/button.css");
-@import url("../../MyMagicCompany/css/Components/page-content.css");
-@import url("../../MyMagicCompany/css/Components/card.css");
-@import url("../../MyMagicCompany/css/Components/cards.css");
-@import url("../../MyMagicCompany/css/Components/card-white.css");
-@import url("../../MyMagicCompany/css/Components/list-inline.css");
+@import url("Components/sidebar.css");
+@import url("Components/container.css");
+@import url("Components/shadowed.css");
+@import url("Components/avatar.css");
+@import url("Components/button.css");
+@import url("Components/page-content.css");
+@import url("Components/card.css");
+@import url("Components/cards.css");
+@import url("Components/card-white.css");
+@import url("Components/list-inline.css");
 
 /* General style rule */
 
