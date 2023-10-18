@@ -1,97 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Title of my raphaël page</title>
-        <meta name="description of my page" content="contente of the page">
-        <meta charset="UTF-8">
-        <script src="https://kit.fontawesome.com/c7369a067a.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto&display=swap" rel="stylesheet">
-        <link href="My-Profile/CSS/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="sidebar">
-            <ul>
-                <li>
-                    <i class="fa-solid fa-address-card"></i>
-                    <a href="#introduction">About me</a>
-                </li>
-                <li>
+<head>
+    <title> Title of my raphaël page</title>
+    <meta name="description of my page" content="contente of the page">
+    <meta charset="UTF-8">
+    <link href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link href="My-Profile/CSS/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="My-Profile/images/favicon.ico">
+</head>
+<body>
+    <div class="sidebar shadowed">
+        <ul>
+            <li>
+                <i class="fa-solid fa-address-card"></i>
+                <a href="#introduction">About me</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-kitchen-set"></i>
+                <a href="#skills">My Skills</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-mountain"></i>
+                <a href="#passion">My Passions</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-network-wired"></i>
+                <a href="#follow">Follow me</a>
+            </li>
+        </ul>
+    </div>
+    <div class="page-content">
+        <div class="container">
+            <div class="card-white shadowed" id="introduction">
+                <h1>
+                    Hey every one, I'm Raphaël
+                </h1>
+                <img src="My-Profile/images/profile-picture.jpg" alt="My picture profile" id="profilelogo" class="avatar">
+                <p>
+                    this is my <em>first</em> <strong>paragraph</strong>
+                    how do you feel today ? I'm great, thank you, have a good day !
+                </p>
+                <a href="MyMagicCompany/magicCompany.html" target="_blank" class="button"> Here the link of my beautiful company</a>
+            </div>
+            <div class="card-white shadowed" id="skills">
+                <h2>
                     <i class="fa-solid fa-kitchen-set"></i>
-                    <a href="#skills">My Skills</a>
-                </li>
-                <li>
+                    My skills
+                </h2>
+                <ul>
+                    <li> first list item</li>
+                    <li> second list item</li>
+                </ul>
+            </div>
+            <div class="card-white shadowed" id="passion">
+                <h2>
                     <i class="fa-solid fa-mountain"></i>
-                    <a href="#passion">My Passions</a>
-                </li>
-                <li>
+                    My passion
+                </h2>
+                <ol>
+                    <li>moutain skiing</li>
+                    <li>hiking</li>
+                </ol>
+            </div>
+            <div class="card-white shadowed" id="follow">
+                <h2>
                     <i class="fa-solid fa-network-wired"></i>
-                    <a href="#follow">Follow me</a>
-                </li>
-            </ul>
-        </div>
-        <div class="page-content">
-            <div class="container">
-                <div class="card-white" id="introduction">
-                    <h1>
-                        Hey every one, I'm Raphaël
-                    </h1>
-                    <img src="My-Profile/images/profile-picture.jpg" alt="My picture profile" id="profilelogo" class="img-circle shadowed">
-                    <p>
-                        this is my <em>first</em> <strong>paragraph</strong>
-                        how do you feel today ? I'm great, thank you, have a good day !
-                    </p>
-                    <a href="MyMagicCompany/magicCompany.html" target="_blank" class="btn-blue"> Here the link of my beautiful company</a>
-                </div>
-                <div class="card-white" id="skills">
-                    <h2>
-                        My skills
-                    </h2>
-                    <ul>
-                        <strong>unorder</strong> list
-                        <li> first list item</li>
-                        <li> second list item</li>
-                    </ul>
-                </div>
-                <div class="card-white" id="passion">
-                    <h2>My passion</h2>
-                    <ol>
-                        <strong>order</strong> list
-                        <li class="img-passion">moutain skiing</li>
-                        <li class="img-passion">hiking</li>
-                    </ol>
-                </div>
-                <div class="card-white" id="follow">
-                    <h2>
-                        Follow me
-                    </h2>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://www.linkedin.com/in/rapha%C3%ABllef%C3%A8vre/" target="_blank">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/leferaph" target="_blank">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://gitlab.com/lefevrerapha" target="_blank">
-                                <i class="fa-brands fa-gitlab fa-bounce">	</i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card-white">
-                    <form>
-                        <input type="email">
-                        <input type="password">
-                        <input type="submit" value="Sign up">
-                    </form>
-                </div>
+                    Follow me
+                </h2>
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://www.linkedin.com/in/rapha%C3%ABllef%C3%A8vre/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/leferaph" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://gitlab.com/lefevrerapha" target="_blank">
+                            <i class="fa-brands fa-gitlab fa-bounce">	</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-white shadowed">
+                <form>
+                    <input type="email">
+                    <input type="password">
+                    <input type="submit" value="Sign up">
+                </form>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
