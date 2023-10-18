@@ -5,6 +5,7 @@
 @import url("../../MyMagicCompany/css/Components/sidebar.css");
 @import url("../../MyMagicCompany/css/Components/container.css");
 @import url("../../MyMagicCompany/css/Components/shadowed.css");
+@import url("../../MyMagicCompany/css/Components/avatar.css");
 
 /* General style rule */
 
@@ -70,19 +71,6 @@ p {
     h1 {
         font-size: 24px;
     }
-}
-
-.img-circle {
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
-
-
-
-.img-passion {
-    background: white;
-    color: red;
 }
 
 .card-white {
