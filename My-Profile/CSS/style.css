@@ -101,19 +101,6 @@ p {
             color: rgb(30, 30, 30);
         }
 
-.btn-blue {
-    background-color: #6B72E1;
-    color: white;
-    font-weight: bold;
-    padding: 15px 20px;
-    border-radius: 5px;
-}
-
-    .btn-blue:hover {
-        background-color: black;
-        color: white;
-    }
-
 .page-content {
     margin-left: 200px;
 }
